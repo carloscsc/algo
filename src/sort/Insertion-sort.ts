@@ -1,3 +1,5 @@
+// TODO: implement a insertion sort to multi-levels array
+
 const insertionSort = (arr: number[]): number[] => {
 	for (let i = 1; i < arr.length; i++) {
 		const key = arr[i]

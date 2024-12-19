@@ -5,7 +5,7 @@ describe('Insertion Sort', () => {
 		expect(insertionSort(arr)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9])
 	})
 
-	it('should sort an array with repetead values in ascrendig order', () => {
+	it('should sort an array with repeated values in ascending order', () => {
 		const arr = [0, 1, 4, 6, 5, 1, 0, 1, 3]
 		expect(insertionSort(arr)).toEqual([0, 0, 1, 1, 1, 3, 4, 5, 6])
 	})
