@@ -1,4 +1,6 @@
-
+// Based in the example of chapter 4 (divider and conquer) of the book
+// "Understand algorithms" - Aditya Y. Bhargava
+// In the book the algo was not provided, so I try to create on my own
 
 export function AreaDivider(
 	w: number,
