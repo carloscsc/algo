@@ -1,3 +1,5 @@
+
+
 export function AreaDivider(
 	w: number,
 	h: number
