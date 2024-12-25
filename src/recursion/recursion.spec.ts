@@ -8,7 +8,7 @@ describe('Fatorial tests', () => {
 })
 
 describe('Area divider test', () => {
-	it('Should display the bigger square that area can be divided by equal', () => {
+	it('Should display the bigger square that area can be divided in eqaul partes', () => {
 		expect(AreaDivider(1600, 900)).toStrictEqual({ width: 100, height: 100 })
 		expect(AreaDivider(1920, 1080)).toStrictEqual({ width: 120, height: 120 })
 		expect(AreaDivider(900, 900)).toStrictEqual({ width: 450, height: 450 })
