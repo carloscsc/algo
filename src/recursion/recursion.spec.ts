@@ -1,6 +1,7 @@
 import { countListSize } from './count'
 import { AreaDivider } from './divide-area'
 import { fat } from './fatorial'
+import { findBigger } from './find-bigger'
 import { recursiveSum } from './sum'
 
 describe('Fatorial tests', () => {
@@ -26,5 +27,11 @@ describe('Sum an array', () => {
 describe('Count the number of itens in a List', () => {
 	it('Should count the number of itens in a list', () => {
 		expect(countListSize([1, 2, 3, 4, 5])).toBe(5)
+	})
+})
+
+describe('Find the Biggest number in a list', () => {
+	it('Should find the biggest number in a list', () => {
+		expect(findBigger([1, 2, 3], 0)).toBe(3)
 	})
 })
