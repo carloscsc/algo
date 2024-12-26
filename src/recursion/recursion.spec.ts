@@ -1,3 +1,4 @@
+import { countListSize } from './count'
 import { AreaDivider } from './divide-area'
 import { fat } from './fatorial'
 import { recursiveSum } from './sum'
@@ -19,5 +20,11 @@ describe('Area divider test', () => {
 describe('Sum an array', () => {
 	it('Should sum all elements of an array', () => {
 		expect(recursiveSum([2, 4, 6])).toBe(12)
+	})
+})
+
+describe('Count the number of itens in a List', () => {
+	it('Should count the number of itens in a list', () => {
+		expect(countListSize([1, 2, 3, 4, 5])).toBe(5)
 	})
 })
