@@ -1,7 +1,8 @@
 export function quicksort(nuns: number[]): number[] {
 	if (nuns.length < 2) return nuns
 
-	const pivot = nuns.shift() || 0
+	const randomIndex = Math.floor(Math.random() * nuns.length)
+	const pivot = nuns.splice(randomIndex, 1)[0]
 	const smaller = []
 	const bigger = []
 
