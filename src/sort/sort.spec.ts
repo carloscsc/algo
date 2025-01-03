@@ -1,4 +1,5 @@
 import insertionSort from './Insertion-sort'
+import mergeSort from './merge-sort'
 import { quicksort } from './quicks-sort'
 import { findSmallIndex, selectionSort } from './selection-sort'
 describe('Insertion Sort', () => {
@@ -30,6 +31,14 @@ describe('Quick Sort', () => {
 	it('Should return a ordered array using QuickSort', () => {
 		expect(quicksort([9, 8, 7, 6, 5, 4, 3, 2, 1])).toStrictEqual([
 			1, 2, 3, 4, 5, 6, 7, 8, 9,
+		])
+	})
+})
+
+describe('Merge Sort', () => {
+	it('Should return a sorted array', () => {
+		expect(mergeSort([1, 2, 4, 6, 9, 10, 12, 90, 3, 5])).toStrictEqual([
+			1, 2, 3, 4, 5, 6, 9, 10, 12, 90,
 		])
 	})
 })
