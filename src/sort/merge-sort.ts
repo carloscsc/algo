@@ -16,9 +16,6 @@ function merge(leftSide: number[], rightSide: number[]): number[] {
 	let leftIndex = 0
 	let rightSideIndex = 0
 
-	leftSide.length
-	rightSide.length
-
 	while (leftIndex < leftSide.length && rightSideIndex < rightSide.length) {
 		if (leftSide[leftIndex] < rightSide[rightSideIndex]) {
 			sortedArr.push(leftSide[leftIndex])
